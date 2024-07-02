@@ -17,10 +17,12 @@ Tecnologias: Node, Express, Typescript, Javascript
 Endpoints de la API del Backend
 Autenticación:
 
-POST /sign-up: Registra nuevos usuarios.
+POST /sign-up: Registra nuevos usuarios. <br/>
+
 POST /sign-in: Inicia sesión de usuarios existentes.
 POST /sign-out: Cierra la sesión de un usuario autenticado.
 GET /verify: Verifica la validez de un token de acceso.
+
 Usuarios:
 
 GET /profile: Recupera el perfil del usuario autenticado.
