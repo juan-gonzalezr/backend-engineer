@@ -13,17 +13,17 @@ Tecnologias: Node, Express, Typescript, Javascript
 Base de datos:
 Mongo db
 Docker compose
-{
+{<br/>
 terminal 1 <br/>
-cd frontend<br/>
-npm run build<br/>
-escribir el comando "docker build -t vite-react-app:latest ." para construir el build del frontend en vite<br/>
-escribir el comando "docker run -p 5173:5173 vite-react-app:latest" para correr la imagen<br/>
+1. cd frontend<br/>
+2. npm run build<br/>
+3. escribir el comando "docker build -t vite-react-app:latest ." para construir el build del frontend en vite<br/>
+4. escribir el comando "docker run -p 5173:5173 vite-react-app:latest" para correr la imagen<br/>
 frontend corriendo en "http://localhost:5173"<br/>
 
 terminal 2<br/>
-cd backend-engineer <br/>
-escribir comando "docker-compose up" para correr docker'compose.yml el cual contiene el backend y la base de datos<br/>
+1. cd backend-engineer <br/>
+2. escribir comando "docker-compose up" para correr docker'compose.yml el cual contiene el backend y la base de datos<br/>
 }<br/>
 
 
