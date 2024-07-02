@@ -25,7 +25,7 @@ terminal 2<br/>
 2. escribir comando "docker-compose up" para correr docker'compose.yml el cual contiene el backend y la base de datos<br/>
 }<br/>
 
-
+En caso de no poder correr el docker compose, para correrlo en local clonar el repositorio, hacer npm install en ambas carpetas (frontend y backend) y ambos utilizan el comando npm run dev, por ultimo tener encuenta version de node 20 o superior y tener instalado mongodb. 
 
 Uso desde el frontend: <br/>
 1. acceder al localhost:5173/sign-up y crear un usuario <br/>
