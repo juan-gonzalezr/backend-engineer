@@ -6,13 +6,12 @@ Descripción:
 Se realiza la implementacion de backend-engineer-test utilizando para el backend node en typescript, con los respectivos endpoints incluidos en la prueba y usando un pequeño frontend en vite react 
 
 
-Frontend:
-Tecnologias:Vite react, Typescript
-Backend:
-Tecnologias: Node, Express, Typescript, Javascript
-Base de datos:
-Mongo db
-Docker compose
+Frontend:<br/>
+Tecnologias:Vite react, Typescript<br/>
+Backend:<br/>
+Tecnologias: Node, Express, Typescript, Javascript<br/>
+Base de datos: Mongo db <br/>
+Docker compose<br/>
 {<br/>
 terminal 1 <br/>
 1. cd frontend<br/>
