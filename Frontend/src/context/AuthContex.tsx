@@ -3,9 +3,9 @@ import { signUptRequest, signInRequest, verifyTokenRequest } from "../api/auth";
 import Cookies from 'js-cookie';
 
 interface IUser {
+  id:string;
   username: string;
   email: string;
-  id:string;
   // Define aquí cualquier otra propiedad que tenga tu usuario
 }
 interface IUserIn {

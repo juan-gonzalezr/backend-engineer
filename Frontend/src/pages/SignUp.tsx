@@ -17,14 +17,16 @@ const SignUp: React.FC = () => {
     formState: { errors },
   } = useForm<IFormInput>();
 
-  const { signUp, isAuthenticated ,errors:SignUpErrors } = useAuth();
-  const navigate=useNavigate()
+  const { signUp, isAuthenticated, errors: SignUpErrors } = useAuth();
+  const navigate = useNavigate();
 
-  useEffect(()=>{
-    if(isAuthenticated) navigate('/restaurants')
-  })
+  useEffect(() => {
+    if (isAuthenticated) navigate('/restaurants');
+  }, [isAuthenticated, navigate]);
+
   const onSubmit: SubmitHandler<IFormInput> = async (data) => {
-    signUp(data);
+    const userData = { ...data, id: '' }; // Añadir un id vacío o generar uno si es necesario
+    await signUp(userData);
     console.log(data);
   };
 

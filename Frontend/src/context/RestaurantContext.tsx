@@ -52,7 +52,9 @@ export function RestaurantProvider({ children }: RestaurantProviderProps) {
   };
 
   const saveRestaurant = async (newRestaurant: IRestaurant) => {
-    newRestaurant.id = user?.id; // Asigna el id del usuario al restaurante si está disponible
+    if (user?.id) {
+      newRestaurant.id = user.id; // Asigna el id del usuario al restaurante si está disponible
+    }
     try {
       const res = await saveRestaurantsRequest(newRestaurant);
       setRestaurant(res.data); // Asumiendo que res.data contiene la lista de restaurantes
