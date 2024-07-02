@@ -62,5 +62,5 @@ POST /restaurants: Guarda una búsqueda de ciudad realizada por el usuario.<br/>
 GET /restaurants/history: Recupera el historial de búsquedas de ciudades del usuario autenticado.<br/>
 ![image](https://github.com/juan-gonzalezr/backend-engineer/assets/62959602/cc635100-c3a4-4a97-a836-249517b84697)
 
-
-NOTA: la implementacion de las cordenadas en la busqueda no fue realizada por temas practicos. Gracias por su tiempo<br/>
+NOTA1: En caso de tener un error en token, cree un usuario nuevo, o borre la cookie en el inspector/Aplicacion/Cookies click derecho borrar
+NOTA2: la implementacion de las cordenadas en la busqueda no fue realizada por temas practicos. Gracias por su tiempo<br/>
